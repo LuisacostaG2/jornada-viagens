@@ -61,13 +61,13 @@ select {
 }
 
 p {
-    color: var(--text-primary-color);
+  color: var(--text-primary-color);
   font-family: "montserrat", sans-serif;
-    font-weight: var(--text-weigth);
+  font-weight: var(--text-weigth);
 }
 
 h1 {
-    color: var(--primary-color);
+  color: var(--primary-color);
   font-family: "montserrat", sans-serif;
   font-weight: var(--title-weigth);
 }
