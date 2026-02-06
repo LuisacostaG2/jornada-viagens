@@ -2,7 +2,7 @@ header {
   background-color: var(--background-tertiary-color);
   display: flex;
   flex-direction: row;
-  align-items: flex-start;
+  align-items: flex;
   justify-content: space-between;
   padding: 38px 48px;
 }
@@ -19,16 +19,21 @@ header {
 }
 
 .header__menu-nav {
-  margin-top: 42px;
-  gap: 1rem;
-}
-
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    margin-top: 0;
+  }
+  
 .header__menu {
   width: 32px;
   height: 32px;
   object-fit: contain;
 }
 
+input[type="checkbox"]:checked ~ nav{
+    display: block;
+}
 nav{
     display: none;
 
