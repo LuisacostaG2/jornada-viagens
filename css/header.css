@@ -77,4 +77,28 @@ nav {
     margin: 16px 0;
   }
 
+  @media screen and (min-width: 1024px) {
+    .main-header {
+      padding: 38px 120px;
+    }
+    .logo {
+      width: 260px;
+      height: 64px;
+    }
+    .img-desktop {
+      display: block;
+    }
+    .img-mobile {
+      display: none;
+    }
+    .navigation-menu a:hover {
+      color: var(--primary-color);
+    }
+  }
+
+  @media screen and (min-width: 1920px) {
+    .main-header {
+      padding: 38px 160px;
+    }
+  }
 }
