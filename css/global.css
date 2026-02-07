@@ -9,6 +9,7 @@
   --background-primary-color: #ffffff;
   --background-secondary-color: #f5f5f5;
   --background-tertiary-color: #000000;
+  
 
   --primary-color: #8f0101;
   --secondary-color: #b81515;
@@ -45,7 +46,7 @@ body {
 .section-title h2 {
   font-size: 28px;
   font-weight: var(--title-weigth);
-  margin: 0;
+  margin-top: 88px;
   text-align: center;
 }
 
