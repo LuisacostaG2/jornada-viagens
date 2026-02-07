@@ -3,75 +3,47 @@
   flex-direction: column;
   align-items: center;
   gap: 24px;
+  margin-top: 64px;
 }
 
 .categories-cards .card {
-  color: var(--text-primary-color);
-  background-color: var(--background-secondary-color);
-  padding: 24px 16px;
-  position: static;
   width: 312px;
   height: 220px;
-  box-sizing: border-box;
-  border-radius: 8px;
+  background-color: var(--background-secondary-color);
   text-align: center;
+  border-radius: 16px;
+  padding: 24px;
+  box-sizing: border-box;
+  text-decoration: none;
+  color: var(--text-primary-color);
 }
 
-.categories-cards .card header {
-  display: block;
-  background-color: transparent;
-  position: block;
-  padding: 0;
-  margin-bottom: 24px;
+.categories-cards .card.single-line {
+  padding-top: 50px;
 }
-
-.categories-cards .card header h4 {
-  font-size: 28px;
-  font-stretch: condensed;
-  font-weight: var(--title-weigth);
-  margin: 24px 0 0;
-}
-
-.categories-cards .card img {
-  font-stretch: condensed;
-  margin: 24px 0 0;
+.categories-cards .card.single-line.transfer img {
+  margin: 10px 0 20px;
 }
 
 @media screen and (min-width: 768px) {
+  .categories .section-title {
+    width: 100%;
+  }
   .categories-cards {
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: center;
   }
 }
+
 @media screen and (min-width: 1024px) {
-  .categories-cards {
-    flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: center;
-  }
   .categories-cards .card {
-    width: 420px;
-    height: 308px;
+    width: 430px;
   }
+}
 
-  .categories-cards .card header h4 {
-    font-size: 48px;
-    font-weight: var(--title-weigth);
-    margin: 8px 0 0;
-  }
-
-  @media screen and (min-width: 1440px) {
-    .categories-cards .card {
-      width: 588px;
-      height: 308px;
-    }
-  }
-
-  @media screen and (min-width: 1920px) {
-    .categories-cards {
-      width: 1250px;
-      margin: 0 auto;
-    }
+@media screen and (min-width: 1440px) {
+  .categories-cards .card {
+    width: 280px;
   }
 }
