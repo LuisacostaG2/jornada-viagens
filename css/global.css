@@ -60,7 +60,7 @@ section.bottom-hero {
 .section-title h2 {
   font-size: 28px;
   font-weight: var(--title-weight);
-  margin: 0;
+  margin: 0 0 32;
   text-align: center;
 }
 .section-title hr {
@@ -74,7 +74,7 @@ section.bottom-hero {
 .content-title {
   font-size: 28px;
   font-weight: var(--title-weight);
-  margin: 0 0 24px;
+  margin: 0 0 24 ;
 }
 .content-text {
   font-size: 20px;
